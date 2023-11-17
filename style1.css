@@ -31,7 +31,7 @@ body {
 }
 .Simon_Kamali {
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 200;
     text-decoration: none;
     color: antiquewhite;
@@ -261,6 +261,9 @@ width: 50%;
     }
     .case-button {
         margin-top: 16px;
+    }
+    .Simon_Kamali {
+        font-size: 16px;
     }
 
 
