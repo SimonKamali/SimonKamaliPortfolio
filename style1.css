@@ -1,4 +1,5 @@
 * {
+    box-sizing: border-box;
     margin: 0;
 }
 body {
@@ -264,6 +265,17 @@ width: 50%;
     }
     .Simon_Kamali {
         font-size: 16px;
+    }
+    .header-rideshare {
+        padding: 16px;
+    }
+    .container-rideshare {
+        flex-direction: column;
+        padding: 16px;
+        gap: 16px;
+    }
+    .rideshare-textbox {
+        padding: 16px;
     }
 
 
