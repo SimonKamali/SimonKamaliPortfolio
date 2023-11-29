@@ -1,6 +1,15 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    letter-spacing: 1,7px;
+    color: antiquewhite;
+
+}
+html {
+    scroll-behavior: smooth;
 }
 body {
     background: rgb(27,37,49);
@@ -11,11 +20,7 @@ body {
     background: linear-gradient(114deg, rgba(0,35,37,1) 0%, rgba(0,0,0,1) 27%); 
 }
 .navbar {
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 24px;
-    font-weight: 200;
-    letter-spacing: 2px;
-    color: antiquewhite;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -30,17 +35,33 @@ body {
     border-style: solid;
     border-color: antiquewhite;
 }
+.navbar-rideshare {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: aqua
+    
+}
 .Simon_Kamali {
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 24px;
-    font-weight: 200;
+
     text-decoration: none;
-    color: antiquewhite;
+    
 }
 .rightnav {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    
 
 }
 h1 {
@@ -50,11 +71,14 @@ h1 {
     color: antiquewhite;
     padding-top: 64px;
     padding-bottom: 32px;
+
+}
+.name {
     padding-left: 100px;
     padding-right: 100px;
 }
 .skills {
-    font-family: 'Urbanist', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
     font-weight: 400;
     font-size: 106px;
     color: antiquewhite;
@@ -87,7 +111,7 @@ p {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 24px;
     font-weight: 200;
-    letter-spacing: 2px;
+    letter-spacing: 1,7px;
     color: antiquewhite;
 }
 .text-box-left {
@@ -153,9 +177,7 @@ width: 50%;
 .case-button {
     --c1: #00eeff1e;
     --c2: #00aeff08;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 24px;
-    font-weight: 200;
+
     text-decoration: none;
     color: antiquewhite;
     border: 1px;
@@ -196,6 +218,56 @@ width: 50%;
 }
 .header-rideshare img {
     width: 100%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 100px;
+    padding-left: 100px;
+
+
+}
+
+.contactPlusLink {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 32px;
+    justify-content: center;
+
+}
+.contactMe {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    font-size: 106px;
+    color: antiquewhite;
+
+}
+.infoContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    gap: 8px;
+}
+
+
+.copyright * {  
+    font-size: 16px; 
+    text-align: center;
 }
 
 @media screen and (max-width: 600px) {
@@ -276,6 +348,24 @@ width: 50%;
     }
     .rideshare-textbox {
         padding: 16px;
+    }
+    .contactMe {
+        font-size: 36px;
+    }
+    .contactPlusLink {
+        gap: 4px;
+    }
+    .footer {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .name {
+        padding: 0px;
+        text-align: center;
+    
+    }
+    .Simon_Kamali {
+        font-size: 16px;
     }
 
 
