@@ -11,7 +11,7 @@
 html {
     scroll-behavior: smooth;
     /* overflow-x: hidden; */
-    overflow-x: -moz-hidden-unscrollable;
+    /* overflow-x: -moz-hidden-unscrollable; */
 }
 body {
     background: rgb(27,37,49);
