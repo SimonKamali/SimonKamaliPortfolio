@@ -379,6 +379,9 @@ width: 50%;
     .Simon_Kamali {
         font-size: 16px;
     }
+    html {
+        scroll-behavior: smooth;
+    }
 
 
 }
