@@ -338,6 +338,9 @@ width: 50%;
     .imgs-left {
         width: 100%;
     }
+    .imgs-left img {
+        width: 100%;
+    }
     .button-wrapper {
         text-align: center;
     }
