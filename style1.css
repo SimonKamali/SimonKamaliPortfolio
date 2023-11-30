@@ -333,6 +333,7 @@ width: 50%;
     }
     .scrolltext {
         font-size: 36px;
+        animation: moving 20s linear infinite;
     }
     .skills {
         font-size: 36px;
