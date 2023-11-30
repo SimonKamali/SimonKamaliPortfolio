@@ -87,6 +87,7 @@ h1 {
     border-right: 0px;
     border-style: solid;
     color:antiquewhite;
+    overflow: hidden;
 }
 .scrolltext {
     font-family: 'Red Hat Display', sans-serif;
