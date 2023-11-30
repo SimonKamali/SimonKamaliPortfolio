@@ -10,6 +10,7 @@
 }
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 body {
     background: rgb(27,37,49);
@@ -77,7 +78,39 @@ h1 {
     padding-left: 100px;
     padding-right: 100px;
 }
+.scroll-wrapper {
+    padding-top: 0px;
+    padding-bottom: 64px;
+    border-bottom: 1px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    color:antiquewhite;
+}
+.scrolltext {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    font-size: 106px;
+    color: antiquewhite;
+ 
 
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    /* overflow: hidden; */
+    white-space: nowrap;
+    /* -webkit-animation: moving 10s infinite; */
+    animation: moving 60s linear infinite;
+    transform: translateX(100%);
+}
+@keyframes moving {
+    to {
+        transform: translateX(-100%);
+        
+    }
+}
 .skills {
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 400;
@@ -294,6 +327,13 @@ width: 50%;
         padding-left: 16px;
         padding-right: 16px;
     }
+    .scroll-wrapper {
+        padding-top: 0px;
+        padding-bottom: 32px;
+    }
+    .scrolltext {
+        font-size: 36px;
+    }
     .skills {
         font-size: 36px;
         padding-bottom: 16px;
@@ -387,7 +427,7 @@ width: 50%;
     }
     .name {
         padding: 0px;
-        text-align: center;
+        /* text-align: center; */
     
     }
     .Simon_Kamali {
