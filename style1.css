@@ -11,7 +11,7 @@
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
-    overflow: -moz-hidden-unscrollable;
+    overflow-x: -moz-hidden-unscrollable;
 }
 body {
     background: rgb(27,37,49);
@@ -333,8 +333,8 @@ width: 50%;
     .scroll-wrapper {
         padding-top: 0px;
         padding-bottom: 32px;
-        overflow: -moz-hidden-unscrollable;
-        overflow: hidden;
+        overflow-x: -moz-hidden-unscrollable;
+        
     }
     .scrolltext {
         font-size: 36px;
